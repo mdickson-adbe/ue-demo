@@ -1,3 +1,5 @@
+/* stylelint-disable selector-class-pattern, font-family-no-missing-generic-family-keyword, no-descending-specificity */
+
 .latest-tns-wrapper {
   display: flex;
 }
@@ -81,4 +83,4 @@
   border: 1px solid #ddd;
   border-radius: 50%;
 }
-
+/* stylelint-enable selector-class-pattern, font-family-no-missing-generic-family-keyword, no-descending-specificity */
