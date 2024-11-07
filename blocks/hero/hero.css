@@ -45,7 +45,7 @@ main .hero > div > div {
 main .hero picture {
   position: absolute;
   z-index: -1;
-  inset: 0 0 0 0;
+  inset: 0;
   box-sizing: border-box;
   background-color: #3489d7;
   display: flex;
