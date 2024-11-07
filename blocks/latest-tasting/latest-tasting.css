@@ -83,4 +83,29 @@
   border: 1px solid #ddd;
   border-radius: 50%;
 }
+
+.latest-tns-contributed-by-name {
+  font-weight: bold;
+}
+
+.latest-tns-contributed-by-name, .latest-tns-contributed-by-title {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.cookie-dark {
+  height: 30px;
+  border-radius: 25px;
+  margin: 10px 0;
+  background: #4E3F3F;
+  border: 1px solid #322828;
+}
+
+.creme-light {
+  height: 20px;
+  border-radius: 20px;
+  margin: 0;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
 /* stylelint-enable selector-class-pattern, font-family-no-missing-generic-family-keyword, no-descending-specificity */
