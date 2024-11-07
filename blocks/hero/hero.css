@@ -30,7 +30,7 @@ main .hero div > p:first-child {
 }
 
 main .hero div > p:nth-child(2) {
-  font-size: 80px;
+  font-size: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: 600;
