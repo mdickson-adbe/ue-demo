@@ -84,11 +84,12 @@
   border-radius: 50%;
 }
 
-.latest-tns-contributed-by-name {
+.latest-tns-contributed-by-member-wrapper > .latest-tns-contributed-by-name {
   font-weight: bold;
 }
 
-.latest-tns-contributed-by-name, .latest-tns-contributed-by-title {
+.latest-tns-contributed-by-member-wrapper > .latest-tns-contributed-by-name,
+.latest-tns-contributed-by-member-wrapper > .latest-tns-contributed-by-title {
   padding-top: 0;
   padding-bottom: 0;
 }

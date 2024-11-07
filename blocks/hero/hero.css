@@ -1,37 +1,67 @@
-.hero-container .hero-wrapper {
+/* block specific CSS goes here */
+
+main .hero-container > div {
   max-width: unset;
+}
+  
+main .hero-container {
   padding: 0;
 }
-
-.hero {
+  
+main .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  padding: 80px;
+  min-height: 500px;
 }
 
-.hero h1 {
+main .hero > div  {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  margin: 0 auto;
+  color: #fff;
 }
 
-.hero picture {
+main .hero div > p:first-child {
+  background: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  color: #3489d7;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main .hero div > p:nth-child(2) {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-family: roboto, sans-serif;
+}
+
+main .hero > div > div {
+  margin-top: 80px;
+  max-width: 450px;
+}
+
+main .hero picture {
   position: absolute;
   z-index: -1;
   inset: 0;
-  object-fit: cover;
   box-sizing: border-box;
+  background-color: #3489d7;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
+main .hero img {
   height: 100%;
+  margin-right: 25%;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
-  }
+.hero-content-super-title {
+  background: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  color: #0058C9;
+  text-transform: uppercase;
+  font-weight: bold;
 }
