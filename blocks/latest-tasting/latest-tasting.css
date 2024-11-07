@@ -84,6 +84,15 @@
   border-radius: 50%;
 }
 
+.latest-tns-contributed-by-name {
+  font-weight: bold;
+}
+
+.latest-tns-contributed-by-name, .latest-tns-contributed-by-title {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 div[class^=cookie-] {
   height: 30px;
   border-radius: 25px;
