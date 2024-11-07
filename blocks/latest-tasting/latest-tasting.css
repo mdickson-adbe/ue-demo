@@ -89,28 +89,22 @@
 }
 
 .latest-tns-contributed-by-name, .latest-tns-contributed-by-title {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-div[class^=cookie-] {
-  height: 30px;
-  border-radius: 25px;
-  margin: 10px 0;
-}
-
-div[class^=creme-] {
-  height: 20px;
-  border-radius: 20px;
-  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .cookie-dark {
+  height: 30px;
+  border-radius: 25px;
+  margin: 10px 0;
   background: #4E3F3F;
   border: 1px solid #322828;
 }
 
 .creme-light {
+  height: 20px;
+  border-radius: 20px;
+  margin: 0;
   background: #fff;
   border: 1px solid #e6e6e6;
 }
