@@ -12,8 +12,8 @@ export default async function decorate(block) {
   const tnsTotalTasters = 5;
   const tnsHighestRating = 5;
   const tnsLowestRating = 5;
-  const tnsTastesLike = '';
-  const tnsNotableQuote = '';
+  const tnsTastesLike = 'Ah, it tasted like pure, chocolatey joy with just the right hint of vanilla creme—like a cookie from the heavens, if you will!';
+  const tnsNotableQuote = `Pairs well with a glass of Pennsylvania's finest human beer.`;
   const tnsContributorName = 'Jackie Daytona';
   const tnsContributorTitle = 'Regular Human Bartender';
 
@@ -31,7 +31,7 @@ export default async function decorate(block) {
     ),
     div(
       { class: 'latest-tns-wrapper--info-wrapper' },
-      h2('Latest Oreo'),
+      h2('Latest Cookie'),
       div(
         { class: 'latest-tns-name-wrapper' },
         span(tnsName),
