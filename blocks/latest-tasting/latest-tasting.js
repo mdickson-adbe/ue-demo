@@ -1,5 +1,5 @@
-import { 
-  div, span, img, h2, h3
+import {
+  div, span, img, h2, h3,
 } from '../../scripts/dom-helpers.js';
 import { decorateIcons } from '../../scripts/aem.js';
 
@@ -65,11 +65,11 @@ export default async function decorate(block) {
           { class: 'latest-tns-contributed-by-member-wrapper' },
           div({ class: 'latest-tns-contributed-by-name' }, tnsContributorName),
           div({ class: 'latest-tns-contributed-by-title' }, tnsContributorTitle),
-        )
-      )
-    )
+        ),
+      ),
+    ),
   );
-  
+
   block.appendChild(latestTNS);
   decorateIcons(block);
 }
