@@ -23,9 +23,9 @@ export default async function decorate(block) {
       { class: 'latest-tns-wrapper--image-wrapper' },
       div(
         { class: 'latest-tns oreo' },
-        div({ class: 'top' }),
-        div({ class: 'creme' }),
-        div({ class: 'bottom' }),
+        div({ class: 'cookie-dark' }),
+        div({ class: 'creme-light' }),
+        div({ class: 'cookie-dark' }),
       ),
       div({ class: 'latest-tns-description' }, tnsDescription),
     ),
@@ -42,9 +42,9 @@ export default async function decorate(block) {
       ),
       div(
         { class: 'latest-tns-average-origin-wrapper' },
-        span({ class: 'icon icon-star' }),
+        span({ class: 'icon icon-star star' }),
         span(tnsAvg),
-        span({ class: 'icon icon-globe' }),
+        span({ class: 'icon icon-globe globe' }),
         span(tnsOrigin),
       ),
       div(
@@ -54,28 +54,28 @@ export default async function decorate(block) {
       ),
       div(
         { class: 'latest-tns-highest-rating-wrapper' },
-        span('Highest Rating:'),
+        span('Highest Rating: '),
         span(tnsHighestRating),
       ),
       div(
         { class: 'latest-tns-lowest-rating-wrapper' },
-        span('Lowest Rating:'),
+        span('Lowest Rating: '),
         span(tnsLowestRating),
       ),
       div(
         { class: 'latest-tns-taste-wrapper' },
-        span('Tastes / Smells Like:'),
+        span('Tastes / Smells Like: '),
         span(tnsTastesLike),
       ),
       div(
         { class: 'latest-tns-quotes-wrapper' },
-        span('Notable Quotes:'),
+        span('Notable Quotes: '),
         span(tnsNotableQuote),
       ),
       h3('Contributed By'),
       div(
         { class: 'latest-tns-contributed-by-wrapper' },
-        img({ class: 'latest-tns-contributed-by-image', src: '/images/user-solid.svg' }),
+        img({ class: 'latest-tns-contributed-by-image', src: '/images/laszlo.png' }),
         div(
           { class: 'latest-tns-contributed-by-member-wrapper' },
           div({ class: 'latest-tns-contributed-by-name' }, tnsContributorName),
