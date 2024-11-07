@@ -9,6 +9,11 @@ export default async function decorate(block) {
   const tnsDate = '';
   const tnsAvg = '5.0';
   const tnsOrigin = 'USA';
+  const tnsTotalTasters = 5;
+  const tnsHighestRating = 5;
+  const tnsLowestRating = 5;
+  const tnsTastesLike = '';
+  const tnsNotableQuote = '';
   const tnsContributorName = 'Jackie Daytona';
   const tnsContributorTitle = 'Regular Human Bartender';
 
@@ -44,18 +49,28 @@ export default async function decorate(block) {
       ),
       div(
         { class: 'latest-tns-total-wrapper' },
+        span('Total Tasters:'),
+        span(tnsTotalTasters),
       ),
       div(
         { class: 'latest-tns-highest-rating-wrapper' },
+        span('Highest Rating:'),
+        span(tnsHighestRating),
       ),
       div(
         { class: 'latest-tns-lowest-rating-wrapper' },
+        span('Lowest Rating:'),
+        span(tnsLowestRating),
       ),
       div(
         { class: 'latest-tns-taste-wrapper' },
+        span('Tastes / Smells Like:'),
+        span(tnsTastesLike),
       ),
       div(
         { class: 'latest-tns-quotes-wrapper' },
+        span('Notable Quotes:'),
+        span(tnsNotableQuote),
       ),
       h3('Contributed By'),
       div(
