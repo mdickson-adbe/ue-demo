@@ -106,24 +106,17 @@
           {
             "name": "Highlight",
             "value": "highlight"
-          }
-        ]
-      },
-      {
-        "component": "multiselect",
-        "name": "background",
-        "label": "Background Color",
-        "options": [
+          },
           {
-            "name": "White",
+            "name": "White Background",
             "value": "white"
           },
           {
-            "name": "Light Gray",
+            "name": "Light Gray Background",
             "value": "lightgray"
           },
           {
-            "name": "Soft Blue",
+            "name": "Soft Blue Background",
             "value": "softblue"
           }
         ]
