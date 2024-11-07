@@ -127,10 +127,16 @@
     "id": "cards",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
+        "component": "select",
+        "name": "classes",
+        "label": "Card View Layout",
+        "valueType": "string",
+        "value": "",
         "options": [
+          {
+            "name": "Default View",
+            "value": ""
+          },
           {
             "name": "Vertical",
             "value": "vertical"
