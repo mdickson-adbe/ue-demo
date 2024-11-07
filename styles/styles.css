@@ -19,6 +19,11 @@
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
+  /* section colors */
+  --white-bg: #FFF;
+  --gray-bg: #F7F7F7;
+  --soft-blue-bg: rgb(34 107 243 / 4%);
+
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
@@ -254,4 +259,16 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.white {
+  background-color: var(--white-bg);
+}
+
+main .section.lightgray {
+  background-color: var(--gray-bg);
+}
+
+main .section.softblue {
+  background-color: var(--soft-blue-bg);
 }
