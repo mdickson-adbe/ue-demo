@@ -22,7 +22,7 @@
   /* section colors */
   --white-bg: #FFF;
   --gray-bg: #F7F7F7;
-  --soft-blue-bg: rgba(34, 107, 243, 0.04)
+  --soft-blue-bg: rgb(34 107 243 / 0.04)
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
