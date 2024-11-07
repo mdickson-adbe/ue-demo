@@ -1,9 +1,9 @@
-# Your Project's Title...
-Your project's description...
+# Universal Editor Demo
+A quick demonstration of Universal Editor with Edge Delivery Services.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--ue-demo--mdickson-adbe.aem.page/
+- Live: https://main--ue-demo--mdickson-adbe.aem.live/
 
 ## Installation
 
