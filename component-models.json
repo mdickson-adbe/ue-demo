@@ -196,5 +196,9 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "latest-tasting",
+    "fields": []
   }
 ]
