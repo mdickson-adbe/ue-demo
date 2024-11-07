@@ -83,4 +83,26 @@
   border: 1px solid #ddd;
   border-radius: 50%;
 }
+
+div[class^=cookie-] {
+  height: 30px;
+  border-radius: 25px;
+  margin: 10px 0;
+}
+
+div[class^=creme-] {
+  height: 20px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.cookie-dark {
+  background: #4E3F3F;
+  border: 1px solid #322828;
+}
+
+.creme-light {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
 /* stylelint-enable selector-class-pattern, font-family-no-missing-generic-family-keyword, no-descending-specificity */

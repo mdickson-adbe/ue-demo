@@ -75,7 +75,7 @@ export default async function decorate(block) {
       h3('Contributed By'),
       div(
         { class: 'latest-tns-contributed-by-wrapper' },
-        img({ class: 'latest-tns-contributed-by-image', src: '/images/laszlo.png' }),
+        img({ class: 'latest-tns-contributed-by-image', src: `${window.hlx.codeBasePath}/images/laszlo.png` }),
         div(
           { class: 'latest-tns-contributed-by-member-wrapper' },
           div({ class: 'latest-tns-contributed-by-name' }, tnsContributorName),
