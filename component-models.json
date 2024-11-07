@@ -108,6 +108,25 @@
             "value": "highlight"
           }
         ]
+      },
+      {
+        "component": "multiselect",
+        "name": "background",
+        "label": "Background Color",
+        "options": [
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Light Gray",
+            "value": "lightgray"
+          },
+          {
+            "name": "Soft Blue",
+            "value": "softblue"
+          }
+        ]
       }
     ]
   },
