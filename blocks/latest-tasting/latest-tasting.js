@@ -1,5 +1,7 @@
-import { div } from '../../scripts/dom-helpers.js';
-import { decorateIcons } from '../../aem.js';
+import { 
+  div, span, img, h2, h3
+} from '../../scripts/dom-helpers.js';
+import { decorateIcons } from '../../scripts/aem.js';
 
 export default async function decorate(block) {
   const tnsDescription = '';
@@ -15,7 +17,7 @@ export default async function decorate(block) {
     div(
       { class: 'latest-tns-wrapper--image-wrapper' },
       div(
-        { class: 'latest-tns oreo'},
+        { class: 'latest-tns oreo' },
         div({ class: 'top' }),
         div({ class: 'creme' }),
         div({ class: 'bottom' }),
