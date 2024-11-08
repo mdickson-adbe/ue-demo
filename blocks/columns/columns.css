@@ -62,5 +62,18 @@
 }
 
 .columns.vertical .cards > div {
+  font-size: 18px;
   display: flex;
+}
+.columns.vertical .cards > div p {
+  margin-top: 1px;
+}
+
+.columns.vertical .cards > div h1 {
+  margin-top: 1px;
+}
+
+.columns.vertical .cards > div a {
+  text-decoration: none;
+
 }
