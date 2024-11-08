@@ -31,3 +31,36 @@
     order: unset;
   }
 }
+
+.columns.vertical .column .h1 {
+  font-size: 36px;
+  font-family: Open Sans;
+  color: #707070;
+}
+
+.columns.vertical .column .cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns.vertical .column .cards > div {
+  display: flex;
+}
+
+.columns.vertical .column .cards > div > div:not(.columns-img-col) {
+  display: flex;
+}
+
+.columns.vertical .column .cards .columns-img-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns.vertical .column .cards .columns-img-col img {
+  height: 115px;
+  width: 115px;
+}
+
+.columns.vertical .column .cards .card {
+  display: flex;
+}
