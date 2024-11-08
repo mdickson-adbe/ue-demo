@@ -34,7 +34,7 @@
 
 .columns.vertical h1 {
   font-size: 36px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   color: #707070;
 }
 
@@ -48,7 +48,26 @@
 }
 
 .columns.vertical .cards > div {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: roboto, sans-serif;
   display: flex;
+}
+
+.columns.vertical .cards > div p {
+  margin-top: 1px;
+}
+
+.columns.vertical .cards > div h1 {
+  font-size: 18px;
+  margin-top: 1px;
+}
+
+.columns.vertical .cards > div a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.25;
+  font-family: roboto, sans-serif;
 }
 
 .columns.vertical .cards > div > div:not(.columns-img-col) {
@@ -64,26 +83,4 @@
 .columns.vertical .cards > div > div:first-child img {
   height: 115px;
   width: 115px;
-}
-
-.columns.vertical .cards > div {
-  font-size: 18px;
-  line-height: 1.6;
-  font-family: roboto, sans-serif;
-  display: flex;
-}
-.columns.vertical .cards > div p {
-  margin-top: 1px;
-}
-
-.columns.vertical .cards > div h1 {
-  font-size: 18px;
-  margin-top: 1px;
-}
-
-.columns.vertical .cards > div a {
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 1.25;
-  font-family: roboto, sans-serif;
 }
