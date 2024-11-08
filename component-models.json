@@ -183,8 +183,9 @@
       },
       {
         "component": "multiselect",
-        "name": "style",
+        "name": "classes",
         "label": "Style",
+        "valueType": "string",
         "options": [
           {
             "name": "Vertical",
