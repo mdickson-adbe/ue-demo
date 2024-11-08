@@ -32,35 +32,35 @@
   }
 }
 
-.columns.vertical > div > .column > h1 {
+.columns.vertical h1 {
   font-size: 36px;
   font-family: Open Sans;
   color: #707070;
 }
 
-.columns.vertical .column .cards {
+.columns.vertical .cards {
   display: flex;
   flex-direction: column;
 }
 
-.columns.vertical .column .cards > div {
+.columns.vertical .cards > div {
   display: flex;
 }
 
-.columns.vertical .column .cards > div > div:not(.columns-img-col) {
+.columns.vertical .cards > div > div:not(.columns-img-col) {
   display: flex;
 }
 
-.columns.vertical .column .cards .columns-img-col {
+.columns.vertical .cards .columns-img-col {
   display: flex;
   flex-direction: column;
 }
 
-.columns.vertical .column .cards .columns-img-col img {
+.columns.vertical .cards .columns-img-col img {
   height: 115px;
   width: 115px;
 }
 
-.columns.vertical .column .cards .card {
+.columns.vertical .cards > div {
   display: flex;
 }
