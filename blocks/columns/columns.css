@@ -41,6 +41,9 @@
 .columns.vertical .cards {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  height: 400px;
+  background: #FFF;
 }
 
 .columns.vertical .cards > div {
@@ -64,6 +67,8 @@
 
 .columns.vertical .cards > div {
   font-size: 18px;
+  line-height: 1.6;
+  font-family: roboto, sans-serif;
   display: flex;
 }
 .columns.vertical .cards > div p {
@@ -71,10 +76,13 @@
 }
 
 .columns.vertical .cards > div h1 {
+  font-size: 18px;
   margin-top: 1px;
 }
 
 .columns.vertical .cards > div a {
   text-decoration: none;
   font-size: 18px;
+  line-height: 1.25;
+  font-family: roboto, sans-serif;
 }
