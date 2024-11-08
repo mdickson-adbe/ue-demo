@@ -182,9 +182,10 @@
         "label": "Rows"
       },
       {
-        "component": "multiselect",
-        "name": "style",
+        "component": "select",
+        "name": "classes",
         "label": "Style",
+        "valueType": "string",
         "options": [
           {
             "name": "Vertical",
