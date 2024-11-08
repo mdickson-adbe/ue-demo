@@ -269,7 +269,7 @@ main .section.white {
 
 main > .section.lightgray {
   background-color: var(--gray-bg);
-  margin: 0px 16px;
+  margin: 0 16px;
 }
 
 main > .section.softblue {
