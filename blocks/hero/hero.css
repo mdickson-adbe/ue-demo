@@ -4,8 +4,9 @@ main .hero-container > div {
   max-width: unset;
 }
   
-main .hero-container {
+main .hero-container, main .hero-container > .hero-wrapper {
   padding: 0;
+  margin-bottom: 0;
 }
   
 main .hero {
