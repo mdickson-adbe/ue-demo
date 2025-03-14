@@ -128,7 +128,7 @@
     "fields": [
       {
         "component": "select",
-        "name": "classes",
+        "name": "style",
         "label": "Card View Layout",
         "valueType": "string",
         "value": "",
