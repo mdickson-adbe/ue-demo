@@ -237,7 +237,13 @@
   },
   {
     "id": "latest-tasting",
-    "fields": []
+    "fields": [
+      {
+        "component": "text",
+        "name": "simpletext",
+        "label": "Simpletext"
+      }
+    ]
   },
   {
     "id": "simpletext2",
