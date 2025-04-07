@@ -238,5 +238,37 @@
   {
     "id": "latest-tasting",
     "fields": []
+  },
+  {
+    "id": "simpletext2",
+    "fields": [
+      {
+        "component": "text",
+        "name": "simpletext",
+        "label": "Simpletext"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Font Color",
+        "description": "The text color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Red",
+            "value": "bg-red"
+          },
+          {
+            "name": "Green",
+            "value": "bg-green"
+          },
+          {
+            "name": "Blue",
+            "value": "bg-blue"
+          }
+        ]
+      }
+    ]
   }
 ]
